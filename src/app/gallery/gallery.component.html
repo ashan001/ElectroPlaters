@@ -1,0 +1,8 @@
+<div class="container">
+    <h1 class="my-4 text-center text-lg-left portfolio-item">{{'gallery.heading' |translate}}</h1>
+    <div class="row text-center text-lg-left">
+        <div *ngFor="let gal of Gallery" class="col-lg-3 col-md-4 col-xs-6 h-50 cus-img">           
+                <img class="img-fluid img-thumbnail cus-border-0 cus-img" [src]="gal.imagePath" alt="">          
+        </div>
+    </div>
+</div>

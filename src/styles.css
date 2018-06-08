@@ -1,0 +1,302 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    padding:0;
+    margin: 0;
+}
+
+.primary-btn{
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 60px;
+    border-radius: 25px;
+    background: transparent;
+    border: 1px solid #e0003b;
+    color: #222222;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.primary-btn:focus{
+    outline: none;
+}
+
+.primary-btn span {
+    color: #222222;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    right: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+
+.primary-btn:hover {
+    background: #e0003b;
+    color: #fff;
+  }
+  
+  .primary-btn:hover span {
+    color: #fff;
+    right: 20px;
+  }
+  
+  .primary-btn.white {
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .primary-btn.white span {
+    color: #fff;
+  }
+  
+  .primary-btn.white:hover {
+    background: #fff;
+    color: #e0003b;
+  }
+  
+  .primary-btn.white:hover span {
+    color: #e0003b;
+  }
+  
+  .genric-btn {
+    display: inline-block;
+    outline: none;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+
+  .genric-btn:focus {
+    outline: none;
+  }
+  
+  .genric-btn.e-large {
+    padding: 0 40px;
+    line-height: 50px;
+  }
+  
+  .genric-btn.large {
+    line-height: 45px;
+  }
+  
+  .genric-btn.medium {
+    line-height: 30px;
+  }
+  
+  .genric-btn.small {
+    line-height: 25px;
+  }
+  
+  .genric-btn.radius {
+    border-radius: 3px;
+  }
+  
+  .genric-btn.circle {
+    border-radius: 20px;
+  }
+  
+  .genric-btn.arrow {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .genric-btn.arrow span {
+    margin-left: 10px;
+  }
+  
+  .genric-btn.default {
+    color: #222222;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+  }
+  
+  .genric-btn.default:hover {
+    border: 1px solid #f9f9ff;
+    background: #fff;
+  }
+  
+  .genric-btn.default-border {
+    border: 1px solid #f9f9ff;
+    background: #fff;
+  }
+  
+  .genric-btn.default-border:hover {
+    color: #222222;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+  }
+  
+  .genric-btn.primary {
+    color: #fff;
+    background: #df003a;
+    border: 1px solid transparent;
+  }
+  
+  .genric-btn.primary:hover {
+    color: #df003a;
+    border: 1px solid #df003a;
+    background: #fff;
+  }
+  
+  .genric-btn.primary-border {
+    color: #df003a;
+    border: 1px solid #df003a;
+    background: #fff;
+  }
+  
+  .genric-btn.primary-border:hover {
+    color: #fff;
+    background: #df003a;
+    border: 1px solid transparent;
+  }
+  
+  .genric-btn.success {
+    color: #fff;
+    background: #73d61c;
+    border: 1px solid transparent;
+  }
+  
+  .genric-btn.success:hover {
+    color: #73d61c;
+    border: 1px solid #73d61c;
+    background: #fff;
+  }
+  
+  .genric-btn.success-border {
+    color: #73d61c;
+    border: 1px solid #73d61c;
+    background: #fff;
+  }
+  
+  .genric-btn.success-border:hover {
+    color: #fff;
+    background: #73d61c;
+    border: 1px solid transparent;
+  }
+  
+  .genric-btn.info {
+    color: #fff;
+    background: #38a4ff;
+    border: 1px solid transparent;
+  }
+  
+  .genric-btn.info:hover {
+    color: #38a4ff;
+    border: 1px solid #38a4ff;
+    background: #fff;
+  }
+  
+  .genric-btn.info-border {
+    color: #38a4ff;
+    border: 1px solid #38a4ff;
+    background: #fff;
+  }
+  
+  .genric-btn.info-border:hover {
+    color: #fff;
+    background: #38a4ff;
+    border: 1px solid transparent;
+  }
+  
+  .genric-btn.warning {
+    color: #fff;
+    background: #f4e700;
+    border: 1px solid transparent;
+  }
+  
+  .genric-btn.warning:hover {
+    color: #f4e700;
+    border: 1px solid #f4e700;
+    background: #fff;
+  }
+  
+  .genric-btn.warning-border {
+    color: #f4e700;
+    border: 1px solid #f4e700;
+    background: #fff;
+  }
+  
+  .genric-btn.warning-border:hover {
+    color: #fff;
+    background: #f4e700;
+    border: 1px solid transparent;
+  }
+  
+  .genric-btn.danger {
+    color: #fff;
+    background: #f44a40;
+    border: 1px solid transparent;
+  }
+  
+  .genric-btn.danger:hover {
+    color: #f44a40;
+    border: 1px solid #f44a40;
+    background: #fff;
+  }
+  
+  .genric-btn.danger-border {
+    color: #f44a40;
+    border: 1px solid #f44a40;
+    background: #fff;
+  }
+  
+  .genric-btn.danger-border:hover {
+    color: #fff;
+    background: #f44a40;
+    border: 1px solid transparent;
+  }
+  
+  .genric-btn.link {
+    color: #222222;
+    background: #f9f9ff;
+    text-decoration: underline;
+    border: 1px solid transparent;
+  }
+  
+  .genric-btn.link:hover {
+    color: #222222;
+    border: 1px solid #f9f9ff;
+    background: #fff;
+  }
+  
+  .genric-btn.link-border {
+    color: #222222;
+    border: 1px solid #f9f9ff;
+    background: #fff;
+    text-decoration: underline;
+  }
+  
+  .genric-btn.link-border:hover {
+    color: #222222;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+  }
+  
+  .genric-btn.disable {
+    color: #222222, 0.3;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+    cursor: not-allowed;
+  }

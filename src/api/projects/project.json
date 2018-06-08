@@ -1,0 +1,38 @@
+[
+    {
+        "projectID": 1,
+        "projectName": "Project one",
+        "imagePath": "/assets/images/1.jpg",
+        "description": "Sample Description 1"
+    },
+    {
+        "projectID": 2,
+        "projectName": "Project two",
+        "imagePath": "/assets/images/2.jpg",
+        "description": "Sample Description 2"
+    },
+    {
+        "projectID": 3,
+        "projectName": "Project three",
+        "imagePath": "/assets/images/3.jpg",
+        "description": "Sample Description 3"
+    },
+    {
+        "projectID": 4,
+        "projectName": "Project four",
+        "imagePath": "/assets/images/4.jpg",
+        "description": "Sample Description 4"
+    },
+    {
+        "projectID": 5,
+        "projectName": "Project five",
+        "imagePath": "/assets/images/5.jpg",
+        "description": "Sample Description 5"
+    },
+    {
+        "projectID": 6,
+        "projectName": "Project six",
+        "imagePath": "/assets/images/6.jpg",
+        "description": "Sample Description 6"
+    }
+]

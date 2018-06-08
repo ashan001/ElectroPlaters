@@ -1,0 +1,12 @@
+.l-25{
+    left: 26% !important;
+}
+
+
+@media screen and (max-width:599px){
+    .l-25{
+        left: 21% !important;
+    }
+}
+
+

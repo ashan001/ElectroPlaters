@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-sm-8">
+        <h2 class="mt-4">{{'whatWedo.title'|translate}}</h2>
+        <p>{{'whatWedo.description.des-1'|translate}}</p>
+        <!-- <p>{{'whatWedo.description.des-2'|translate}}</p> -->
+        <p>
+            <button class="primary-btn"  [routerLink]="['/gallery']">{{'VieweOurWork.title' |translate}}
+                <span class="lnr lnr-arrow-right"></span>
+            </button>
+        </p>
+    </div>
+    <div class="col-sm-4">
+        <h2 class="mt-4">{{'contactDetails.title' |translate}}</h2>
+        <address style="display: inline;">
+            <!-- address here -->
+            <label>
+                <strong>{{'contactDetails.addrLine-1' |translate}}</strong>
+            </label>
+            <br/>
+            <label>
+                <strong>{{'contactDetails.addrLine-2' |translate}}</strong>
+            </label>
+            <br/>
+            <label>
+                <strong>{{'contactDetails.city' |translate}}</strong>
+            </label>
+            <label>
+                <strong>{{'contactDetails.country' |translate}}</strong>
+            </label>
+        </address>
+        <address>
+            <label class="m-g-rem" for="contact">{{'contactDetails.contactNoHead' |translate}}:
+                <strong class="m-l-5">{{'contactDetails.contactNo' |translate}}</strong>
+            </label><br/>
+            <label class="m-g-rem" for="email">{{'contactDetails.mobileHead' |translate}}:
+                <strong class="m-l-5">{{'contactDetails.mobile' |translate}}</strong>
+            </label>
+        </address>
+    </div>
+</div>

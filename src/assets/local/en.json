@@ -1,0 +1,69 @@
+{
+	"welcomeMessage": "Welcome to Electro platers",
+	"whatWedo": {
+		"title": "What we do ...",
+		"description": {
+			"des-1":"We undertake,Cu,AL,Iron,Stainless Steel and Brass item,Alloy weels and Hand Rails Buffing and Wlectroplating",
+			"des-2": "We are looking forward to working with you in the future on our plating needs"
+		}
+	},
+	"contactDetails": {
+		"title": "Contact Details",
+		"addrLine-1": "No 24,",
+		"addrLine-2": "CarmelMawatha,",
+		"city": "Wattala,",
+		"country": "Sri Lanka.",
+		"contactNoHead": "Contact",
+		"email": "Email Address",
+		"mobileHead":"Mobile No ",
+		"mobile": "0777437805",
+		"fax": "",
+		"contactNo":"0112934281"
+	},
+	"VieweOurWork":{
+		"title":"View our work"
+	},
+	"slider":{
+		"rotate-1":{
+			"heading":"Slide 1 heading",
+			"description":"This is a description for the first slide."
+		},
+		"rotate-2":{
+			"heading":"Slide 2 heading",
+			"description":"This is a description for the second slide."
+		},
+		"rotate-3":{
+			"heading":"Slide 3 heading",
+			"description":"This is a description for the third slide."
+		}
+	},
+	"feature":{
+		"heading":"We are including these business features",
+		"description":"We are providing a wide range of industry-best metal finishing and plating solutions since 2001. Over the years, we have developed and perfected our industrial electroplating processes that make use of various metals and metal alloys to achieve the desired result for our customers. Electroplating can offer a number of important features and benefits that can help you improve the quality of your manufacturing processes and enhance your competitive position in the marketplace",
+		"sub":{
+			"description":"Features that you get",
+			"features":{
+				"f-one":"Forms a Protective Barrier",
+				"f-two":"Enhances Appearance",
+				"f-three":"Reduces Friction",
+				"f-four":"Prevents Tarnishing",
+				"f-five":"Resists Heat",
+				"f-six":"Increases Hardness",
+				"followInfo":{
+					"des":"By clicking the following button, you can see our work"					
+				},
+				"des":"The process of electroplating, which in simple terms involves using an electrical charge to attach a thin metal layer or coating to an object such as an industrial part, is nothing new. For decades, many industries have benefited from the way that electroplating can increase the durability or improve the appearance of the plated piece. Sharretts Plating Company is widely recognized as a leader and innovator in the industrial use of electroplating for businesses of all types and sizes"
+			}
+		},
+		"methods":{
+			"platingMethods":"Plating — a process where one joins a metal covering to a conductive surface — is a centuries-old process that many people most commonly associate with jewelry. Adding gold plating or silver plating to an item to make it appear more precious and attractive is an extremely common use for plating."
+		}
+	},
+	"gallery":{
+		"heading":"Some of past work that we have done"
+	},
+	"copyRights":{
+		"header":"Copyright",
+		"Des":"CARMEL ELECTRO PLATERS"
+	}
+}
